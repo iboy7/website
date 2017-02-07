@@ -1,0 +1,67 @@
+body{
+    margin_top: 5px;
+
+    background: url(post_Logo.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+
+}
+
+p{
+    text-align: justify;
+}
+
+table.glowna{
+    border: black 1px solid;
+}
+
+td.tresc{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+td.naglowek{
+	width: 960px;
+	height: 230px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+td.menu_t{
+	border-bottom: solid 1px black;
+	color: maroon;
+	height: 30px
+}
+
+a.menu_l{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	color: #502a18;
+	font-weight: bold;
+}
+
+a.menu_l:hover{
+	text-decoration: underline;
+	font-size: 18px;
+	color: maroon;
+}
+
+p.maly{
+	font-size: 10px;
+}
+
+p.srodek{
+	text-align: center;
+}
+
+p.prawa{
+	text-align: right;
+}
