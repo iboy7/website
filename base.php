@@ -42,7 +42,7 @@
 					<?php
 					if(!isset($_GET["pg"])) include("home.php");
 					if($_GET["pg"]==1) include("home.php");
-					if($_GET["pg"]==2) include("wykaz.php");
+					if($_GET["pg"]==2) include("stats.php");
 					if($_GET["pg"]==3) include("addn.php");
 					if($_GET["pg"]==31) include("adds.php");
 					if($_GET["pg"]==4) include("edycja.php");
