@@ -17,7 +17,7 @@
 				<td width="200" height="400" valign="top">
 					<table cellspacing="0"  width="200">
 						<tr>
-							<td class="menu_t"><a class="menu_l" href="base.html?pg=1">Home</a> </td>
+							<td class="menu_t"><a class="menu_l" href="base.php?pg=1">Home</a> </td>
 						</tr>
 
 						<tr>
@@ -45,10 +45,11 @@
 					if($_GET["pg"]==2) include("stats.php");
 					if($_GET["pg"]==3) include("addn.php");
 					if($_GET["pg"]==31) include("adds.php");
-					if($_GET["pg"]==4) include("edycja.php");
-					if($_GET["pg"]==5) include("usun.php");
-					if($_GET["pg"]==10) include("form1.php");
-					if($_GET["pg"]==11) include("wynik.php");
+					if($_GET["pg"]==4) include("search.php");
+					if($_GET["pg"]==41) include("editsub.php");
+					if($_GET["pg"]==42) include("apply.php");
+					if($_GET["pg"]==5) include("erase.php");
+					if($_GET["pg"]==51) include("erasescrip.php");
 					?>
 				</td>
 			<tr>

@@ -6,7 +6,7 @@
     <h3> Statistics </h3>
 
     <?PHP 
-        $db = mysqli_connect("127.0.0.1:3306", "iboy", "", "kolo") or die ("Unable to connect to the database");
+        $db = mysqli_connect("127.0.0.1:3306", "empro", "", "empro") or die ("Unable to connect to the database");
         
         if(db) echo "Succesfully connected to the database<br>";
 
