@@ -5,7 +5,7 @@
 
     <body>
         <p class="srodek" > 
-            Witamy na oficjalnej stronie Studenckiego Koła Naukowego Genetyki i Medycyny Molekularnej 
+            Welcome to the official webpage of the Students' Scientific Society of Genetics and Molecular Medicine.
         </p>
 
     </body>
