@@ -18,7 +18,7 @@ p{
 }
 
 table.glowna{
-    border: black 1px solid;
+    /*border: black 1px solid;*/
 }
 
 td.tresc{
@@ -63,5 +63,15 @@ p.srodek{
 }
 
 p.prawa{
+	text-align: right;
+}
+p.quote{
+	font-style: italic;
+	text-align: center;
+}
+p.signature
+{
+	font-style: italic;
+	font-weight: bold;
 	text-align: right;
 }
