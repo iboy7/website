@@ -32,7 +32,7 @@
 
         if ($res->num_rows == 0)
         {
-            echo "Nie ma takiego członka!";
+            echo "There is no such member!";
             exit();
         }
 
