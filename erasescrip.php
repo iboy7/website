@@ -2,12 +2,13 @@
     <?php
         // Turn off all error reporting
         //error_reporting(0);
+        //127.0.0.1:3306
     ?>
     <h3> Editing Procedure </h3>
 
     <?PHP 
 
-        $db = mysqli_connect("127.0.0.1:3306", "empro", "", "empro") or die ("Unable to connect to the database");
+        $db = mysqli_connect("localhost", "empro", "", "empro") or die ("Unable to connect to the database");
         
         if($db) echo "Succesfully connected to the database<br>";
 
