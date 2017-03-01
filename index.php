@@ -35,6 +35,11 @@
 						<tr>
 							<td class="menu_t"><a class="menu_l" href="index.php?pg=5">Delete member</a></td>
 						</tr>
+
+						<tr>
+							<td class="menu_t"><a class="menu_l" href="index.php?pg=6">QUIZ</a></td>
+						</tr>
+
 					</table>
 				</td>
 				
@@ -50,6 +55,8 @@
 					if($_GET["pg"]==42) include("apply.php");
 					if($_GET["pg"]==5) include("erase.php");
 					if($_GET["pg"]==51) include("erasescrip.php");
+					if($_GET["pg"]==6) include("formg.php");
+					if($_GET["pg"]==61) include("formo.php");
 					?>
 				</td>
 			<tr>
